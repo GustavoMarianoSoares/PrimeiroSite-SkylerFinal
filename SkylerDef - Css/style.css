@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+body {
+    background: url("imagens/bg-site.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#menu {
+  font-weight: bold;
+  text-transform: capitalize;
+  background:#DF9526;
+  border-bottom: 10px solid rgb(150, 70, 70);
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+#menu a {
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#menu li {
+  color: #000;
+  display: inline-block;
+  background:rgb(150, 70, 70);
+  transition: background 1s, color  1s ;
+  padding: 10px;
+}
+
+#menu li:hover {
+  color: white;
+  background:rgb(150, 40, 40);
+}
+
+#menu img {
+  display: inline;
+}
+
+#menu form {
+  position: relative;
+  top: -30px;
+  float: right;
+  margin-right: 25px;
+}
+
+#menu input {
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+#menu input[type="submit"] {
+  cursor: pointer;
+}
+
+.clear {
+  clear: both;
+}
+
+#conteudo {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 5px;
+}
+
+#topo {
+  position: fixed;
+  bottom: 10%;
+  right: 0.5%;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 1.1em;
+}
+
+#topo img {
+  width: 15px;
+}
+
+#topo a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+#animesTempo h2 {
+  text-align: center;
+}
+
+#animesTempo embed {
+  position: relative;
+  left: 8%;
+  border: 2px solid lightgray;
+  margin: 5px 10px;
+}
+
+
+#lancamentos {
+	background: gray;
+	margin: 0 auto;
+}
+
+#lancTex {
+	text-align:center;
+}
+
+#lancamentos #animes td ,#lancamentos #mangas  td{
+	border-bottom: 1px solid white;
+}
+
+#lancamentos #animes, #lancamentos #mangas {
+	border: 1px solid white;
+}
+
+#lancamentos td img {
+	margin-right: 10px;
+}
+
+#lancamentos a {
+  color: darkblue;
+	padding: 10px;
+	background: white;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+#lancamentos a:visited {
+  color: lightgray;
+}
+
+#lancamentos a:hover {
+	box-shadow: 3px 3px black;
+}
+
+#noticias {
+  border: 1px solid white;
+  margin: 10px 5px;
+  padding: 5px 20px;
+}
+
+#noticias img {
+  width: 700px;
+  margin: 0 auto;
+}
+
+#list {
+  padding: 10px;
+}
+
+#list img {
+  margin-left: 45px;
+}
+
+#list h3, #list h4 {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+
+#list p{
+  width: 80%;
+  float: right;
+}
+
+#conteudo #contato {
+  text-align: center;
+}
+
+#conteudo #missao h1{
+  text-align: center;
+  padding: 5px;
+}
+
+#conteudo #missao p {
+  margin: 5px 10px 25px 25px;
+}
+
+#conteudo #agradecimento {
+  text-align: center;
+}
+
+#conteudo #desculpas {
+  text-align: center;
+}
+
+#conteudo #desculpas {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+#paginas {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#paginas .botaoPag {
+  border-radius: 5px;
+  background-color: white;
+  padding: 5px;
+  font-size: 1.2em;
+  color: darkblue;
+}
+
+#paginas .botaoPag:nth-child(1) {
+  color: lightgray;
+}
+
+#rodape {
+  position: relative;
+  bottom: 0;
+  margin-top: 10px;
+  border-top: 10px solid rgb(150, 70, 70);
+  width: 100%;
+  text-align: center;
+  background-color: #DF9526;
+}
